@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About QuickNotes</title>
+</head>
+<body>
+    <!-- Must exactly match the header/nav from index.html -->
+    <header>
+        <h1>QuickNotes</h1>
+        <p>Capture your thoughts instantly.</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>About QuickNotes</h2>
+        <p>QuickNotes is a lightweight web application designed to help you capture your thoughts without distraction. It provides a seamless environment to organize your daily tasks and ideas efficiently.</p>
+
+        <section>
+            <h3>How to use QuickNotes</h3>
+            <ol>
+                <li>Click on the "New Note" button to start typing.</li>
+                <li>Write your thoughts and give your note a descriptive title.</li>
+                <li>Click "Save" to securely store the note in your browser.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Features</h3>
+            <ul>
+                <li>Instant note creation and editing</li>
+                <li>Distraction-free reading environment</li>
+                <li>Secure local browser storage</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Keyboard shortcuts</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Shortcut</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ctrl + N</td>
+                        <td>Create a new note</td>
+                    </tr>
+                    <tr>
+                        <td>Ctrl + S</td>
+                        <td>Save current note</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Send feedback</h3>
+            <!-- Note how every 'for' attribute matches the corresponding input's 'id' exactly -->
+            <form action="#" method="POST">
+                <div>
+                    <label for="userName">Name:</label>
+                    <input type="text" id="userName" name="userName" required>
+                </div>
+                
+                <div>
+                    <label for="userEmail">Email:</label>
+                    <input type="email" id="userEmail" name="userEmail" required>
+                </div>
+                
+                <div>
+                    <label for="userMessage">Message:</label>
+                    <textarea id="userMessage" name="userMessage" required></textarea>
+                </div>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 QuickNotes</p>
+    </footer>
+</body>
+</html>
